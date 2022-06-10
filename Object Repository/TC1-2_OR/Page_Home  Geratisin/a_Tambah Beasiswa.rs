@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Tambah Beasiswa</name>
+   <tag></tag>
+   <elementGuidId>86a6283b-12e5-47ff-88f2-bc8844e938be</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='navbar']/ul/ul/li/ul/li[2]/div[2]/span/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>37400f44-5b70-4687-9fa4-1b2cea826677</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-default btn-flat</value>
+      <webElementGuid>78fab2d9-d6fe-4fd4-8c55-5406fec7a5a6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>http://108.136.150.164/pub/create_scholarship</value>
+      <webElementGuid>44029b7f-ab03-49aa-bf66-3f24467c7061</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Tambah Beasiswa</value>
+      <webElementGuid>2a307de8-69a0-4d68-9668-e48b8271948d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;navbar&quot;)/ul[1]/ul[@class=&quot;order-1 order-md-3 navbar-nav navbar-no-expand ml-auto&quot;]/li[@class=&quot;dropdown user user-menu show&quot;]/ul[@class=&quot;dropdown-menu show&quot;]/li[@class=&quot;user-body&quot;]/div[@class=&quot;row&quot;]/span[@class=&quot;col-xs-4 text-center&quot;]/a[@class=&quot;btn btn-default btn-flat&quot;]</value>
+      <webElementGuid>9b0ac62b-ffa8-42ae-94e5-2a802c40a38b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='navbar']/ul/ul/li/ul/li[2]/div[2]/span/a</value>
+      <webElementGuid>c57a3cdc-5374-490b-b080-f0ad7a71be93</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Tambah Beasiswa')]</value>
+      <webElementGuid>e4cf0638-e9f6-4169-a92a-6d1fa9c07bcd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beasiswa Saya'])[1]/following::a[1]</value>
+      <webElementGuid>3578ff70-b9a2-4dc5-aa4a-9b8b72c4a79c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ahmad Khoirunnufus'])[1]/following::a[2]</value>
+      <webElementGuid>b2958f12-878a-4e6c-845e-ff08cfaab10e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/preceding::a[1]</value>
+      <webElementGuid>aad46ed5-c879-445d-aa7b-04a2cca1879c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/preceding::a[2]</value>
+      <webElementGuid>d2a1795d-23f9-43cb-947d-b631793a459a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Tambah Beasiswa']/parent::*</value>
+      <webElementGuid>44df06bd-e7cb-422a-b2d7-c3dd354350c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://108.136.150.164/pub/create_scholarship']</value>
+      <webElementGuid>7b0a70d9-0cb0-45af-9ab9-3f0439cc4701</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span/a</value>
+      <webElementGuid>5e101cb9-9992-424b-a6ca-62dfcef47695</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'http://108.136.150.164/pub/create_scholarship' and (text() = 'Tambah Beasiswa' or . = 'Tambah Beasiswa')]</value>
+      <webElementGuid>7fdb32bb-fd66-4fe1-b266-ca073191c44c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
