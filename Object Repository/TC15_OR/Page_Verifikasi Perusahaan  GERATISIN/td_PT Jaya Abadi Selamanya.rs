@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_PT Jaya Abadi Selamanya</name>
+   <tag></tag>
+   <elementGuidId>7ac022e4-8c2c-439a-b58e-a9fddc770af4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>td.dtr-control</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='company-table']/tbody/tr/td</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>38246eb1-3ef2-4436-9a6f-5de74dce07fb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dtr-control</value>
+      <webElementGuid>6422889f-f9e6-4c33-9481-d579740af799</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>PT Jaya Abadi Selamanya</value>
+      <webElementGuid>81690a6d-2beb-4aca-86ea-d5634c4a953f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;company-table&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;dtr-control&quot;]</value>
+      <webElementGuid>bebd6073-1878-4971-8762-ff8a9278cb37</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='company-table']/tbody/tr/td</value>
+      <webElementGuid>8ed24475-5c72-4329-8ac9-6835c7c4d95c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aksi'])[1]/following::td[1]</value>
+      <webElementGuid>9a927e02-05c4-4f88-b610-71e5dd6599be</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dokumen Verifikasi'])[1]/following::td[1]</value>
+      <webElementGuid>40b5c64a-b2ce-4b4c-81ba-3250c93c86fd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='jaya@email.com'])[1]/preceding::td[1]</value>
+      <webElementGuid>6eae4ab4-10c4-40d0-a40d-ce5ccd79b538</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download'])[1]/preceding::td[2]</value>
+      <webElementGuid>b16cf14f-f3b2-496e-8064-5ad6609d9220</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='PT Jaya Abadi Selamanya']/parent::*</value>
+      <webElementGuid>27f5f27a-6c7c-45f8-b70e-5f58ba675214</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td</value>
+      <webElementGuid>12613730-5795-4816-a8db-63b4c7d20bd3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'PT Jaya Abadi Selamanya' or . = 'PT Jaya Abadi Selamanya')]</value>
+      <webElementGuid>cc0d0145-60c5-4b75-ae4e-63d4901052b8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

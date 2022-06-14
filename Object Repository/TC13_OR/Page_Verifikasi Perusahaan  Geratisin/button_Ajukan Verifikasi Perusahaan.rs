@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Ajukan Verifikasi Perusahaan</name>
+   <tag></tag>
+   <elementGuidId>4d5b4cbe-d6ec-4330-ac10-e9f62aa9cc9c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.btn-lg.btn-block.mb-4</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@type='submit']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d4b617df-0d60-4134-8227-ff75456b60a9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-lg btn-block mb-4</value>
+      <webElementGuid>a17c1da4-717f-4eb3-838c-a74b52ec1fa6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>submit</value>
+      <webElementGuid>ffe033a1-1890-4f0a-834a-f3bad5ae00b6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Ajukan Verifikasi Perusahaan</value>
+      <webElementGuid>789a2144-d7cf-415f-b958-31870ea6615c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;edit-scholarsip container&quot;]/div[@class=&quot;card edit-scholarsip-card&quot;]/div[@class=&quot;card-body p-5&quot;]/form[@class=&quot;mt-4&quot;]/button[@class=&quot;btn btn-primary btn-lg btn-block mb-4&quot;]</value>
+      <webElementGuid>fcc7adc1-c6bb-47e9-844b-529c83493b3d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@type='submit']</value>
+      <webElementGuid>394cce73-7db9-401d-ace3-2bc4dea9d33d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div[2]/div/div/form/button</value>
+      <webElementGuid>c4f724c9-9dc2-44dd-9076-1f5b7ad2fc50</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload Dokumen Verifikasi'])[1]/following::button[1]</value>
+      <webElementGuid>b92aa322-209e-410d-a019-6dc5739d707e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disini'])[1]/following::button[1]</value>
+      <webElementGuid>31fda104-9e3c-4828-be3d-057a3b3f35a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Halaman Profil'])[1]/preceding::button[1]</value>
+      <webElementGuid>d984987c-57c4-4f41-bed4-c6f601bcec5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Ajukan Verifikasi Perusahaan']/parent::*</value>
+      <webElementGuid>b7daa1ac-04d8-4064-97fc-3400e38d9b6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button</value>
+      <webElementGuid>f16639a6-142e-4651-a77c-3a00c81dfcce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'submit' and (text() = 'Ajukan Verifikasi Perusahaan' or . = 'Ajukan Verifikasi Perusahaan')]</value>
+      <webElementGuid>7155697c-f46a-454f-9c41-903b4f73b960</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Verifikasi Perusahaan</name>
+   <tag></tag>
+   <elementGuidId>98e71ac4-6a80-49e8-b4cf-93a738969233</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//main[@id='main']/div[2]/div/div[2]/a[2]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>9024ad29-a870-4b8f-b9f8-41f09abde2ab</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>http://108.136.150.164/company/verify_company/4</value>
+      <webElementGuid>a1de9103-a0ae-4068-9930-f97daa1d11a5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary </value>
+      <webElementGuid>1c0a1026-770f-42ba-9e6f-7f94be7fce56</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Verifikasi Perusahaan</value>
+      <webElementGuid>28d1273e-d2c2-4d69-bb30-159b3f19bcbe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;main&quot;)/div[@class=&quot;profile-details container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-8 py-5&quot;]/a[@class=&quot;btn btn-primary&quot;]</value>
+      <webElementGuid>b46bd285-812d-4515-8c58-8eda32f9c9b0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//main[@id='main']/div[2]/div/div[2]/a[2]</value>
+      <webElementGuid>a13a934f-aca0-438f-8f2a-9e511811dc25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Verifikasi Perusahaan')]</value>
+      <webElementGuid>11f12234-286f-41b5-9db1-ffcd8ebb9e3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ubah Data Profil'])[1]/following::a[1]</value>
+      <webElementGuid>7f672f1f-2c6f-49ed-86ff-649794bf186f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode Pos'])[1]/following::a[2]</value>
+      <webElementGuid>bb969f57-44e1-4e5b-9b8d-3fd1de652c42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='G'])[2]/preceding::a[1]</value>
+      <webElementGuid>64291c21-34aa-47df-abb3-b8f55ddb1f0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Verifikasi Perusahaan']/parent::*</value>
+      <webElementGuid>3e0705ca-b8ba-4fbc-9f23-6de263c5a305</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://108.136.150.164/company/verify_company/4']</value>
+      <webElementGuid>bdf48b9d-386c-4d45-b3af-ac120745a057</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[2]</value>
+      <webElementGuid>a576a135-3fda-4ebe-9b27-1b9990204cb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'http://108.136.150.164/company/verify_company/4' and (text() = 'Verifikasi Perusahaan' or . = 'Verifikasi Perusahaan')]</value>
+      <webElementGuid>d82e7b35-b082-44bf-87bd-2b54b3788613</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
