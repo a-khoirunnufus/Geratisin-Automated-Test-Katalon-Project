@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Beasiswa pt jaya abadi</name>
+   <tag></tag>
+   <elementGuidId>63b60411-af3a-4fed-a5ab-d78acc6a887c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='scholarship-table']/tbody/tr/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.dtr-control</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>a4fe8866-6bef-4054-8c7d-597d324d6ae6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dtr-control</value>
+      <webElementGuid>7166d440-d677-4bd4-86a1-4725a702c3c5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Beasiswa pt jaya abadi</value>
+      <webElementGuid>71ec870b-2b98-4c92-a094-c2c946408f8d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scholarship-table&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;dtr-control&quot;]</value>
+      <webElementGuid>89b2c429-184f-43d9-94fe-49129e8d76d3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='scholarship-table']/tbody/tr/td</value>
+      <webElementGuid>22f749b3-3245-4175-a4d0-f5fcf78ad48f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Aksi'])[1]/following::td[1]</value>
+      <webElementGuid>e9a156dd-6010-455b-8b22-ee091ddd99b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dokumen Verifikasi'])[1]/following::td[1]</value>
+      <webElementGuid>5b049d68-6f89-4bcc-b096-6c61c310dd9f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PT Jaya Abadi Selamanya'])[1]/preceding::td[1]</value>
+      <webElementGuid>3e97b914-7049-4b53-8a04-0ef81e11d05c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Download'])[1]/preceding::td[2]</value>
+      <webElementGuid>8de4babd-634e-4e52-bb82-080f8c3e32db</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Beasiswa pt jaya abadi']/parent::*</value>
+      <webElementGuid>d7484aee-dd5a-4c8b-932f-f1653de42365</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td</value>
+      <webElementGuid>e376f911-e67c-4f1b-841f-f623c0833445</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Beasiswa pt jaya abadi' or . = 'Beasiswa pt jaya abadi')]</value>
+      <webElementGuid>e0ac8557-e2f5-42cf-b5ce-10ade39ed743</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
