@@ -19,31 +19,34 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://108.136.150.164/pub/login')
+WebUI.navigateToUrl('http://108.136.150.164/company/login')
 
-WebUI.setText(findTestObject('Object Repository/TC5_OR/Page_Login  Geratisin/input_Username_username'), 'ahmad')
+WebUI.setText(findTestObject('Object Repository/TC8_OR/Page_Login Perusahaan  Geratisin/input_Username_username'), 'jayaabadi')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TC5_OR/Page_Login  Geratisin/input_Password_password'), '8SQVv/p9jVScEs4/2CZsLw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/TC8_OR/Page_Login Perusahaan  Geratisin/input_Password_password'), 
+    '8SQVv/p9jVScEs4/2CZsLw==')
 
-WebUI.click(findTestObject('Object Repository/TC5_OR/Page_Login  Geratisin/button_Login'))
+WebUI.click(findTestObject('Object Repository/TC7_OR/Page_Login Perusahaan  Geratisin/button_Login'))
 
-WebUI.mouseOver(findTestObject('Object Repository/TC5_OR/Page_Home  Geratisin/a_Ahmad Khoirunnufus'))
+WebUI.mouseOver(findTestObject('Object Repository/TC8_OR/Page_Beasiswa Saya  Geratisin/a_PT Jaya Abadi Selamanya'))
 
-WebUI.click(findTestObject('Object Repository/TC5_OR/Page_Home  Geratisin/a_Beasiswa Saya'))
+WebUI.click(findTestObject('Object Repository/TC8_OR/Page_Home Perusahaan  Geratisin/a_Beasiswa Saya'))
 
-WebUI.verifyTextPresent('Beasiswa Anak Negeri', false)
+WebUI.verifyTextPresent('Beasiswa pt jaya abadi', false)
 
-WebUI.click(findTestObject('Object Repository/TC5_OR/Page_Beasiswa Saya  Geratisin/a_Edit'))
+WebUI.click(findTestObject('Object Repository/TC8_OR/Page_Beasiswa Saya  Geratisin/a_Edit'))
 
-WebUI.setText(findTestObject('TC6_OR/Page_Edit Beasiswa  Geratisin/input_Nama Beasiswa_name'), '')
+WebUI.setText(findTestObject('Object Repository/TC8_OR/Page_Edit Beasiswa  Geratisin/input_Nama Beasiswa_name'), '')
 
-WebUI.setText(findTestObject('TC6_OR/Page_Edit Beasiswa  Geratisin/input_Deskripsi Beasiswa_description'), '')
+WebUI.setText(findTestObject('Object Repository/TC8_OR/Page_Edit Beasiswa  Geratisin/input_Deskripsi Beasiswa_description'), 
+    '')
 
-WebUI.setText(findTestObject('TC6_OR/Page_Edit Beasiswa  Geratisin/input_Tanggal Akhir Pendaftaran_end_date'), '')
+WebUI.setText(findTestObject('Object Repository/TC8_OR/Page_Edit Beasiswa  Geratisin/input_Tanggal Akhir Pendaftaran_end_date'), 
+    '')
 
-WebUI.setText(findTestObject('TC6_OR/Page_Edit Beasiswa  Geratisin/input_Link Beasiswa_link'), '')
+WebUI.setText(findTestObject('Object Repository/TC8_OR/Page_Edit Beasiswa  Geratisin/input_Link Beasiswa_link'), '')
 
-WebUI.click(findTestObject('Object Repository/TC5_OR/Page_Edit Beasiswa  Geratisin/button_Edit Beasiswa'))
+WebUI.click(findTestObject('Object Repository/TC8_OR/Page_Edit Beasiswa  Geratisin/button_Edit Beasiswa'))
 
 WebUI.verifyTextPresent('gagal mengedit data beasiswa', false, FailureHandling.CONTINUE_ON_FAILURE)
 

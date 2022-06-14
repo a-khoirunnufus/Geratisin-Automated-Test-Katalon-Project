@@ -1,142 +1,139 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Edit</name>
+   <name>a_Beasiswa Saya</name>
    <tag></tag>
-   <elementGuidId>4ef7730c-c7b0-449a-9878-be233ec7dc0b</elementGuidId>
+   <elementGuidId>b43345b9-3fc8-45c0-b5ff-cf238ba0374a</elementGuidId>
    <selectorCollection>
       <entry>
          <key>CSS</key>
-      </entry>
-      <entry>
-         <key>BASIC</key>
-         <value>//a[@class = 'btn btn-primary' and (text() = 'Edit' or . = 'Edit')]</value>
+         <value>a.btn.btn-default.btn-flat</value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//table[@id='scholarship-table']/tbody/tr/td[5]/a[2]</value>
+         <value>//nav[@id='navbar']/ul/ul/li/ul/li[2]/div/span/a</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b48c617f-b79a-4079-85ff-4ab52a50ea25</webElementGuid>
+      <webElementGuid>ecc0fd45-40dc-4c7f-adf6-55cee704f649</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>href</name>
+      <name>class</name>
       <type>Main</type>
-      <value>http://108.136.150.164/pub/edit_scholarship/23</value>
-      <webElementGuid>e4f0fdea-103d-43f3-9b1f-d2726d6dda61</webElementGuid>
+      <value>btn btn-default btn-flat</value>
+      <webElementGuid>e812ec24-ff08-4bac-9f60-4203596d7bb1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>class</name>
+      <name>href</name>
       <type>Main</type>
-      <value>btn btn-primary</value>
-      <webElementGuid>541f4f4a-ff5d-4699-8a90-c4e617c8dd60</webElementGuid>
+      <value>http://108.136.150.164/company/my_scholarship</value>
+      <webElementGuid>b8870f18-febf-4cd1-a77d-37572d6a2450</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Edit</value>
-      <webElementGuid>b36fa27d-a9f8-49fb-9b49-93b4be2d0ec3</webElementGuid>
+      <value>Beasiswa Saya</value>
+      <webElementGuid>9640d5ce-5540-4298-80e2-382277f62a88</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;scholarship-table&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[5]/a[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>98d22ba7-2607-467b-a7b7-1c451c8f9d62</webElementGuid>
+      <value>id(&quot;navbar&quot;)/ul[1]/ul[@class=&quot;order-1 order-md-3 navbar-nav navbar-no-expand ml-auto&quot;]/li[@class=&quot;dropdown user user-menu show&quot;]/ul[@class=&quot;dropdown-menu show&quot;]/li[@class=&quot;user-body&quot;]/div[@class=&quot;row&quot;]/span[@class=&quot;col-xs-4 text-center&quot;]/a[@class=&quot;btn btn-default btn-flat&quot;]</value>
+      <webElementGuid>05b48654-ab20-4ddd-a33f-db9dde24c0bc</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//table[@id='scholarship-table']/tbody/tr/td[5]/a[2]</value>
-      <webElementGuid>0ae9672c-baf7-4fa4-a979-04641ecb0cd9</webElementGuid>
+      <value>//nav[@id='navbar']/ul/ul/li/ul/li[2]/div/span/a</value>
+      <webElementGuid>fb024031-f2b4-44d0-b0f1-7638efc988b6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Edit')]</value>
-      <webElementGuid>d0426de7-29db-461c-9126-9b936afb591b</webElementGuid>
+      <value>//a[contains(text(),'Beasiswa Saya')]</value>
+      <webElementGuid>56baf3ae-2679-4318-9970-774327ed057e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat'])[1]/following::a[1]</value>
-      <webElementGuid>fe97f061-6621-4da8-ab15-274cc033ff7e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PT Jaya Abadi Selamanya'])[1]/following::a[1]</value>
+      <webElementGuid>af770ac7-9de0-4edc-a24c-80a08b7019b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='BelumTerverifikasi'])[1]/following::a[2]</value>
-      <webElementGuid>e7d0091d-7f60-4ebb-b987-e13f5b9f4457</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beasiswa'])[1]/following::a[2]</value>
+      <webElementGuid>67e50b97-c5cf-454e-946b-690932a344c5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verifikasi'])[1]/preceding::a[1]</value>
-      <webElementGuid>79294741-2281-458f-a627-a44bb6433b4a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah Beasiswa'])[1]/preceding::a[1]</value>
+      <webElementGuid>61b323d7-97d6-4965-ac2b-daf2731d4a18</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 1 of 1 entries'])[1]/preceding::a[2]</value>
-      <webElementGuid>181f5098-7a3c-4852-a021-09f029122cc6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Profile'])[1]/preceding::a[2]</value>
+      <webElementGuid>499081ab-6e38-420e-a179-87a5966a18e9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Edit']/parent::*</value>
-      <webElementGuid>4a9b27ed-90ae-4d95-96db-b588451cdb48</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Beasiswa Saya']/parent::*</value>
+      <webElementGuid>e8b04cda-4c49-41ce-848d-0fdc24e1d880</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://108.136.150.164/pub/edit_scholarship/23']</value>
-      <webElementGuid>d143fbd8-4f6c-4a4d-b2ad-21d6e62437de</webElementGuid>
+      <value>//a[@href='http://108.136.150.164/company/my_scholarship']</value>
+      <webElementGuid>afef2b4a-a337-40c0-ac8a-be6f58ef00a1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]</value>
-      <webElementGuid>3edec387-6a25-4184-8f21-7ff9d823016d</webElementGuid>
+      <value>//span/a</value>
+      <webElementGuid>3a8d1355-4075-443f-8dbd-bb0798714ec5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'http://108.136.150.164/pub/edit_scholarship/23' and (text() = 'Edit' or . = 'Edit')]</value>
-      <webElementGuid>3303a861-1536-4f0b-9a0f-752c713b2f51</webElementGuid>
+      <value>//a[@href = 'http://108.136.150.164/company/my_scholarship' and (text() = 'Beasiswa Saya' or . = 'Beasiswa Saya')]</value>
+      <webElementGuid>00839c17-ac56-4b1e-9049-65c6aa47bee7</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
