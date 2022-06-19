@@ -34,8 +34,6 @@ WebUI.click(findTestObject('Object Repository/TC4_OR/Page_Home Perusahaan  Gerat
 
 WebUI.click(findTestObject('Object Repository/TC4_OR/Page_Tambah Beasiswa  Geratisin/button_Tambah Beasiswa'))
 
-WebUI.verifyTextPresent('gagal menambahkan beasiswa', false, FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.verifyTextPresent('nama tidak boleh kosong', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyTextPresent('deskripsi tidak boleh kosong', false, FailureHandling.CONTINUE_ON_FAILURE)

@@ -23,8 +23,7 @@ WebUI.navigateToUrl('http://108.136.150.164/pub/login')
 
 WebUI.setText(findTestObject('Object Repository/TC1-2_OR/Page_Login  Geratisin/input_Username_username'), 'ahmad')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TC1-2_OR/Page_Login  Geratisin/input_Password_password'), 
-    '8SQVv/p9jVScEs4/2CZsLw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/TC1-2_OR/Page_Login  Geratisin/input_Password_password'), '8SQVv/p9jVScEs4/2CZsLw==')
 
 WebUI.click(findTestObject('Object Repository/TC1-2_OR/Page_Login  Geratisin/button_Login'))
 
@@ -33,8 +32,6 @@ WebUI.mouseOver(findTestObject('Object Repository/TC1-2_OR/Page_Home  Geratisin/
 WebUI.click(findTestObject('Object Repository/TC1-2_OR/Page_Home  Geratisin/a_Tambah Beasiswa'))
 
 WebUI.click(findTestObject('Object Repository/TC1-2_OR/Page_Tambah Beasiswa  Geratisin/button_Tambah Beasiswa'))
-
-WebUI.verifyTextPresent('gagal menambahkan beasiswa', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyTextPresent('nama tidak boleh kosong', false, FailureHandling.CONTINUE_ON_FAILURE)
 

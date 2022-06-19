@@ -32,7 +32,7 @@ WebUI.mouseOver(findTestObject('Object Repository/TC3_OR/Page_Home Perusahaan  G
 
 WebUI.click(findTestObject('Object Repository/TC3_OR/Page_Home Perusahaan  Geratisin/a_Tambah Beasiswa'))
 
-WebUI.setText(findTestObject('Object Repository/TC3_OR/Page_Tambah Beasiswa  Geratisin/input_Nama Beasiswa_name'), 'Beasiswa pt jaya abadi')
+WebUI.setText(findTestObject('Object Repository/TC3_OR/Page_Tambah Beasiswa  Geratisin/input_Nama Beasiswa_name'), 'Beasiswa TC3')
 
 WebUI.uploadFile(findTestObject('TC3_OR/Page_Tambah Beasiswa  Geratisin/input_(Opsional)_brochure'), GlobalVariable.sample_document_path)
 
@@ -47,6 +47,26 @@ WebUI.setText(findTestObject('Object Repository/TC3_OR/Page_Tambah Beasiswa  Ger
 WebUI.click(findTestObject('Object Repository/TC3_OR/Page_Tambah Beasiswa  Geratisin/button_Tambah Beasiswa'))
 
 WebUI.verifyTextPresent('sukses menambahkan beasiswa', false)
+
+'delete inserted data start'
+WebUI.navigateToUrl('http://108.136.150.164/pub/logout')
+
+WebUI.navigateToUrl('http://108.136.150.164/admin/login')
+
+WebUI.setText(findTestObject('Case_Delete Resulting Data/input_GERATISIN ADMIN_username'), 'admin')
+
+WebUI.setText(findTestObject('Case_Delete Resulting Data/input_GERATISIN ADMIN_password'), 'password')
+
+WebUI.click(findTestObject('Case_Delete Resulting Data/button_Log in'))
+
+WebUI.click(findTestObject('Case_Delete Resulting Data/a_Lihat Detail'))
+
+WebUI.click(findTestObject('Case_Delete Resulting Data/button_Delete TC3'))
+
+WebUI.click(findTestObject('Case_Delete Resulting Data/button_Ya'))
+
+'delete inserted data end'
+WebUI.verifyTextPresent('Hapus data telah berhasil', false)
 
 WebUI.closeBrowser()
 
