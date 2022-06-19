@@ -23,8 +23,7 @@ WebUI.navigateToUrl('http://108.136.150.164/pub/login')
 
 WebUI.setText(findTestObject('Object Repository/TC1-2_OR/Page_Login  Geratisin/input_Username_username'), 'ahmad')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/TC1-2_OR/Page_Login  Geratisin/input_Password_password'), 
-    '8SQVv/p9jVScEs4/2CZsLw==')
+WebUI.setEncryptedText(findTestObject('Object Repository/TC1-2_OR/Page_Login  Geratisin/input_Password_password'), '8SQVv/p9jVScEs4/2CZsLw==')
 
 WebUI.click(findTestObject('Object Repository/TC1-2_OR/Page_Login  Geratisin/button_Login'))
 
@@ -32,8 +31,7 @@ WebUI.mouseOver(findTestObject('Object Repository/TC1-2_OR/Page_Home  Geratisin/
 
 WebUI.click(findTestObject('Object Repository/TC1-2_OR/Page_Home  Geratisin/a_Tambah Beasiswa'))
 
-WebUI.setText(findTestObject('Object Repository/TC1-2_OR/Page_Tambah Beasiswa  Geratisin/input_Nama Beasiswa_name'), 
-    'Beasiswa Anak Negeri')
+WebUI.setText(findTestObject('Object Repository/TC1-2_OR/Page_Tambah Beasiswa  Geratisin/input_Nama Beasiswa_name'), 'Beasiswa TC1')
 
 WebUI.uploadFile(findTestObject('TC1-2_OR/Page_Tambah Beasiswa  Geratisin/input_(Opsional)_brochure'), GlobalVariable.sample_document_path)
 
@@ -43,12 +41,31 @@ WebUI.setText(findTestObject('Object Repository/TC1-2_OR/Page_Tambah Beasiswa  G
 WebUI.setText(findTestObject('Object Repository/TC1-2_OR/Page_Tambah Beasiswa  Geratisin/input_Tanggal Akhir Pendaftaran_end_date'), 
     '2023-05-12')
 
-WebUI.setText(findTestObject('Object Repository/TC1-2_OR/Page_Tambah Beasiswa  Geratisin/input_Link Beasiswa_link'), 
-    'www.beasiswa.com/beasiswa/1')
+WebUI.setText(findTestObject('Object Repository/TC1-2_OR/Page_Tambah Beasiswa  Geratisin/input_Link Beasiswa_link'), 'www.beasiswa.com/beasiswa/1')
 
 WebUI.click(findTestObject('Object Repository/TC1-2_OR/Page_Tambah Beasiswa  Geratisin/button_Tambah Beasiswa'))
 
 WebUI.verifyTextPresent('sukses menambahkan beasiswa', false)
+
+'delete inserted data start'
+WebUI.navigateToUrl('http://108.136.150.164/pub/logout')
+
+WebUI.navigateToUrl('http://108.136.150.164/admin/login')
+
+WebUI.setText(findTestObject('Case_Delete Resulting Data/input_GERATISIN ADMIN_username'), 'admin')
+
+WebUI.setText(findTestObject('Case_Delete Resulting Data/input_GERATISIN ADMIN_password'), 'password')
+
+WebUI.click(findTestObject('Case_Delete Resulting Data/button_Log in'))
+
+WebUI.click(findTestObject('Case_Delete Resulting Data/a_Lihat Detail'))
+
+WebUI.click(findTestObject('Case_Delete Resulting Data/button_Delete TC1'))
+
+WebUI.click(findTestObject('Case_Delete Resulting Data/button_Ya'))
+
+'delete inserted data end'
+WebUI.verifyTextPresent('Hapus data telah berhasil', false)
 
 WebUI.closeBrowser()
 
