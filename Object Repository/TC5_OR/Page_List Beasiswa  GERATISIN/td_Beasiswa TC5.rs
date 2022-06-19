@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>td_Beasiswa Anak Negeri</name>
+   <name>td_Beasiswa TC5</name>
    <tag></tag>
-   <elementGuidId>ee38bdb1-93d1-432c-8474-b63abd0d0be3</elementGuidId>
+   <elementGuidId>7e1c1e9c-a461-4047-a3e1-abbfdc6eb0c8</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>CSS</key>
-         <value>td.sorting_1</value>
-      </entry>
       <entry>
          <key>XPATH</key>
          <value>//table[@id='scholarship-table']/tbody/tr/td</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>td.dtr-control</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,31 +22,31 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>bb7a4619-f884-4697-863d-1fbe45cd762f</webElementGuid>
+      <webElementGuid>d92dd200-7987-46ee-a3c5-181fa71c7784</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>sorting_1</value>
-      <webElementGuid>fb24fa90-7022-43fe-9833-6cab45b26729</webElementGuid>
+      <value>dtr-control</value>
+      <webElementGuid>a1dc5ae5-9aac-45ed-b6fd-01cced205913</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Beasiswa Anak Negeri</value>
-      <webElementGuid>0db110ec-0838-4930-88b9-b679f6720656</webElementGuid>
+      <value>Beasiswa TC5</value>
+      <webElementGuid>02815778-5d36-4662-83cc-859c3194fffa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;scholarship-table&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;sorting_1&quot;]</value>
-      <webElementGuid>62767c93-e01a-4d03-b08d-d82dfb951f38</webElementGuid>
+      <value>id(&quot;scholarship-table&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;dtr-control&quot;]</value>
+      <webElementGuid>3306ed1a-b134-4638-b8ae-f0c726fcb05b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//table[@id='scholarship-table']/tbody/tr/td</value>
-      <webElementGuid>ad1f444b-63e8-48da-bf5f-611ccf964fdc</webElementGuid>
+      <webElementGuid>8053bc9e-d03e-422d-8eb8-6fa9c91246fa</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Aksi'])[1]/following::td[1]</value>
-      <webElementGuid>0d0010dc-413f-4832-8f95-1a2895acebe6</webElementGuid>
+      <webElementGuid>83aaca2c-86c7-4bd1-8064-d975b04e82b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,31 +70,31 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Status'])[1]/following::td[1]</value>
-      <webElementGuid>b7294796-961f-4ce0-8ded-341c65202605</webElementGuid>
+      <webElementGuid>bd5903c8-e609-4e96-b6f1-27d983a8572b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='www.beasiswa.com/beasiswa/1'])[1]/preceding::td[2]</value>
-      <webElementGuid>57b45873-01d5-471c-bb94-b588e8acc1a6</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ahmad Khoirunnufus'])[1]/preceding::td[1]</value>
+      <webElementGuid>a04df451-5dae-4d65-abc2-65ac7e7d98a3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='BelumTerverifikasi'])[1]/preceding::td[3]</value>
-      <webElementGuid>909c5b60-e3fe-478c-b57b-0d2c3f8169c4</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='www.beasiswa-anak-negri.com'])[1]/preceding::td[4]</value>
+      <webElementGuid>fa6b8087-90c1-4b8c-ac91-79ccaac16e82</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Beasiswa Anak Negeri']/parent::*</value>
-      <webElementGuid>ceccf635-044c-42cd-a29a-e5de85ff5a13</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Beasiswa TC5']/parent::*</value>
+      <webElementGuid>073fc874-6963-4b61-90b7-44cdcea6df0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,14 +102,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td</value>
-      <webElementGuid>67f707c0-3a95-4606-a4c4-d25a4c4b9a42</webElementGuid>
+      <webElementGuid>5c5fdbf6-1355-4a73-acdb-e1a0eea0661f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//td[(text() = 'Beasiswa Anak Negeri' or . = 'Beasiswa Anak Negeri')]</value>
-      <webElementGuid>bb052217-a1e4-4196-91eb-b9b6e2e29c1a</webElementGuid>
+      <value>//td[(text() = 'Beasiswa TC5' or . = 'Beasiswa TC5')]</value>
+      <webElementGuid>9da46903-98f7-4faa-9a0a-2ccc544bbbb8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

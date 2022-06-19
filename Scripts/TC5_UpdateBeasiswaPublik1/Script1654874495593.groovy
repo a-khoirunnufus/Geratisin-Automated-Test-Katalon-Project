@@ -27,13 +27,32 @@ WebUI.setEncryptedText(findTestObject('Object Repository/TC5_OR/Page_Login  Gera
 
 WebUI.click(findTestObject('Object Repository/TC5_OR/Page_Login  Geratisin/button_Login'))
 
+'insert sample data start'
+WebUI.mouseOver(findTestObject('TC5_OR/Page_Home  Geratisin/a_Ahmad Khoirunnufus'))
+
+WebUI.click(findTestObject('TC5_OR/Page_Home  Geratisin/a_Tambah Beasiswa'))
+
+WebUI.setText(findTestObject('TC5_OR/Page_Tambah Beasiswa  Geratisin/input_Nama Beasiswa_name'), 'Beasiswa TC5')
+
+WebUI.uploadFile(findTestObject('TC5_OR/Page_Tambah Beasiswa  Geratisin/input_(Opsional)_brochure'), GlobalVariable.sample_document_path)
+
+WebUI.setText(findTestObject('TC5_OR/Page_Tambah Beasiswa  Geratisin/input_Deskripsi Beasiswa_description'), 'test deskripsi')
+
+WebUI.setText(findTestObject('TC5_OR/Page_Tambah Beasiswa  Geratisin/input_Tanggal Akhir Pendaftaran_end_date'), '2023-12-12')
+
+WebUI.setText(findTestObject('TC5_OR/Page_Tambah Beasiswa  Geratisin/input_Link Beasiswa_link'), 'https://www.beasiswa.com')
+
+WebUI.click(findTestObject('TC5_OR/Page_Tambah Beasiswa  Geratisin/button_Tambah Beasiswa'))
+
+'insert sample data end'
+WebUI.verifyTextPresent('sukses menambahkan beasiswa', false)
+
+'main task start'
 WebUI.mouseOver(findTestObject('Object Repository/TC5_OR/Page_Home  Geratisin/a_Ahmad Khoirunnufus'))
 
 WebUI.click(findTestObject('Object Repository/TC5_OR/Page_Home  Geratisin/a_Beasiswa Saya'))
 
-WebUI.verifyTextPresent('Beasiswa Anak Negeri', false)
-
-WebUI.click(findTestObject('Object Repository/TC5_OR/Page_Beasiswa Saya  Geratisin/a_Edit'))
+WebUI.click(findTestObject('TC5_OR/Page_Beasiswa Saya  Geratisin/elm_Edit'))
 
 WebUI.uploadFile(findTestObject('TC5_OR/Page_Edit Beasiswa  Geratisin/input_Upload Brosur Baru_brochure'), GlobalVariable.sample_document_path)
 
@@ -41,7 +60,28 @@ WebUI.setText(findTestObject('Object Repository/TC5_OR/Page_Edit Beasiswa  Gerat
 
 WebUI.click(findTestObject('Object Repository/TC5_OR/Page_Edit Beasiswa  Geratisin/button_Edit Beasiswa'))
 
+'main task end'
 WebUI.verifyTextPresent('sukses mengedit data beasiswa', false)
+
+WebUI.navigateToUrl('http://108.136.150.164/pub/logout')
+
+WebUI.navigateToUrl('http://108.136.150.164/admin/login')
+
+WebUI.setText(findTestObject('TC5_OR/Page_Login Admin  GERATISIN/input_GERATISIN ADMIN_username'), 'admin')
+
+WebUI.setText(findTestObject('TC5_OR/Page_Login Admin  GERATISIN/input_GERATISIN ADMIN_password'), 'password')
+
+WebUI.click(findTestObject('TC5_OR/Page_Login Admin  GERATISIN/button_Log in'))
+
+'delete sample data start'
+WebUI.click(findTestObject('TC5_OR/Page_Dashboard  GERATISIN/a_Lihat Detail'))
+
+WebUI.click(findTestObject('TC5_OR/Page_List Beasiswa  GERATISIN/button_Delete'))
+
+WebUI.click(findTestObject('TC5_OR/Page_List Beasiswa  GERATISIN/button_Ya'))
+
+'delete sample data end'
+WebUI.verifyTextPresent('Hapus data telah berhasil', false)
 
 WebUI.closeBrowser()
 
