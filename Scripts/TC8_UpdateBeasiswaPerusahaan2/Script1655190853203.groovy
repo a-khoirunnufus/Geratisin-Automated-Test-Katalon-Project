@@ -28,13 +28,27 @@ WebUI.setEncryptedText(findTestObject('Object Repository/TC8_OR/Page_Login Perus
 
 WebUI.click(findTestObject('Object Repository/TC7_OR/Page_Login Perusahaan  Geratisin/button_Login'))
 
+WebUI.mouseOver(findTestObject('Object Repository/TC7_OR/Page_Home Perusahaan  Geratisin/a_PT Jaya Abadi Selamanya'))
+
+WebUI.click(findTestObject('TC7_OR/Page_Home Perusahaan  Geratisin/a_Tambah Beasiswa'))
+
+WebUI.setText(findTestObject('TC7_OR/Page_Tambah Beasiswa  Geratisin/input_Nama Beasiswa_name'), 'Beasiswa TC8')
+
+WebUI.uploadFile(findTestObject('TC7_OR/Page_Tambah Beasiswa  Geratisin/input_(Opsional)_brochure'), GlobalVariable.sample_document_path)
+
+WebUI.setText(findTestObject('TC7_OR/Page_Tambah Beasiswa  Geratisin/input_Deskripsi Beasiswa_description'), 'test desksripsi')
+
+WebUI.setText(findTestObject('TC7_OR/Page_Tambah Beasiswa  Geratisin/input_Tanggal Akhir Pendaftaran_end_date'), '2023-12-12')
+
+WebUI.setText(findTestObject('TC7_OR/Page_Tambah Beasiswa  Geratisin/input_Link Beasiswa_link'), 'https://www.beasiswa.com')
+
+WebUI.click(findTestObject('TC7_OR/Page_Tambah Beasiswa  Geratisin/button_Tambah Beasiswa'))
+
 WebUI.mouseOver(findTestObject('Object Repository/TC8_OR/Page_Beasiswa Saya  Geratisin/a_PT Jaya Abadi Selamanya'))
 
 WebUI.click(findTestObject('Object Repository/TC8_OR/Page_Home Perusahaan  Geratisin/a_Beasiswa Saya'))
 
-WebUI.verifyTextPresent('Beasiswa pt jaya abadi', false)
-
-WebUI.click(findTestObject('Object Repository/TC8_OR/Page_Beasiswa Saya  Geratisin/a_Edit'))
+WebUI.click(findTestObject('TC8_OR/Page_Beasiswa Saya  Geratisin/elm_Edit'))
 
 WebUI.setText(findTestObject('Object Repository/TC8_OR/Page_Edit Beasiswa  Geratisin/input_Nama Beasiswa_name'), '')
 
@@ -48,8 +62,6 @@ WebUI.setText(findTestObject('Object Repository/TC8_OR/Page_Edit Beasiswa  Gerat
 
 WebUI.click(findTestObject('Object Repository/TC8_OR/Page_Edit Beasiswa  Geratisin/button_Edit Beasiswa'))
 
-WebUI.verifyTextPresent('gagal mengedit data beasiswa', false, FailureHandling.CONTINUE_ON_FAILURE)
-
 WebUI.verifyTextPresent('nama tidak boleh kosong', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyTextPresent('deskripsi tidak boleh kosong', false, FailureHandling.CONTINUE_ON_FAILURE)
@@ -57,6 +69,30 @@ WebUI.verifyTextPresent('deskripsi tidak boleh kosong', false, FailureHandling.C
 WebUI.verifyTextPresent('tanggal akhir pendaftaran tidak boleh kosong', false, FailureHandling.CONTINUE_ON_FAILURE)
 
 WebUI.verifyTextPresent('link tidak boleh kosong', false, FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.setText(findTestObject('Object Repository/TC8_OR/Page_Edit Beasiswa  Geratisin/input_Nama Beasiswa_name'), 'Beasiswa TC8')
+
+WebUI.click(findTestObject('Object Repository/TC8_OR/Page_Edit Beasiswa  Geratisin/button_Edit Beasiswa'))
+
+WebUI.navigateToUrl('http://108.136.150.164/pub/logout')
+
+'delete sample data start'
+WebUI.navigateToUrl('http://108.136.150.164/admin/login')
+
+WebUI.setText(findTestObject('Case_Delete Resulting Data/input_GERATISIN ADMIN_username'), 'admin')
+
+WebUI.setText(findTestObject('Case_Delete Resulting Data/input_GERATISIN ADMIN_password'), 'password')
+
+WebUI.click(findTestObject('Case_Delete Resulting Data/button_Log in'))
+
+WebUI.click(findTestObject('Case_Delete Resulting Data/a_Lihat Detail'))
+
+WebUI.click(findTestObject('Case_Delete Resulting Data/button_Delete TC8'))
+
+WebUI.click(findTestObject('Case_Delete Resulting Data/button_Ya'))
+
+'delete sample data end'
+WebUI.verifyTextPresent('Hapus data telah berhasil', false)
 
 WebUI.closeBrowser()
 

@@ -65,20 +65,20 @@ WebUI.verifyTextPresent('sukses mengedit data beasiswa', false)
 
 WebUI.navigateToUrl('http://108.136.150.164/pub/logout')
 
+'delete sample data start'
 WebUI.navigateToUrl('http://108.136.150.164/admin/login')
 
-WebUI.setText(findTestObject('TC5_OR/Page_Login Admin  GERATISIN/input_GERATISIN ADMIN_username'), 'admin')
+WebUI.setText(findTestObject('Case_Delete Resulting Data/input_GERATISIN ADMIN_username'), 'admin')
 
-WebUI.setText(findTestObject('TC5_OR/Page_Login Admin  GERATISIN/input_GERATISIN ADMIN_password'), 'password')
+WebUI.setText(findTestObject('Case_Delete Resulting Data/input_GERATISIN ADMIN_password'), 'password')
 
-WebUI.click(findTestObject('TC5_OR/Page_Login Admin  GERATISIN/button_Log in'))
+WebUI.click(findTestObject('Case_Delete Resulting Data/button_Log in'))
 
-'delete sample data start'
-WebUI.click(findTestObject('TC5_OR/Page_Dashboard  GERATISIN/a_Lihat Detail'))
+WebUI.click(findTestObject('Case_Delete Resulting Data/a_Lihat Detail'))
 
-WebUI.click(findTestObject('TC5_OR/Page_List Beasiswa  GERATISIN/button_Delete'))
+WebUI.click(findTestObject('Case_Delete Resulting Data/button_Delete TC5'))
 
-WebUI.click(findTestObject('TC5_OR/Page_List Beasiswa  GERATISIN/button_Ya'))
+WebUI.click(findTestObject('Case_Delete Resulting Data/button_Ya'))
 
 'delete sample data end'
 WebUI.verifyTextPresent('Hapus data telah berhasil', false)
