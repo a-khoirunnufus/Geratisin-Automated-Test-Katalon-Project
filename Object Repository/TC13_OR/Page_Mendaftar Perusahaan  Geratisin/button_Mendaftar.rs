@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Login</name>
+   <name>button_Mendaftar</name>
    <tag></tag>
-   <elementGuidId>91a3dbca-86a6-42be-864d-2ce1bcd16b6e</elementGuidId>
+   <elementGuidId>5913b752-da18-416c-a2da-b7616e31a665</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.mt-3.btn.btn-lg.btn-primary.btn-block</value>
+         <value>button.btn.btn-primary.btn-lg.btn-block</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>732c704f-e0fe-4c92-ba5e-c1b3ce920ab4</webElementGuid>
+      <webElementGuid>04821d93-41ef-4d75-8999-da39e2e1e480</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>mt-3 btn btn-lg btn-primary btn-block</value>
-      <webElementGuid>8fca9926-d375-4bb0-8617-3d5e9b84dcc1</webElementGuid>
+      <value>btn btn-primary btn-lg btn-block</value>
+      <webElementGuid>3889b867-a306-43cd-8b51-09f211f30e8b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,23 +38,23 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>07978dcc-b96f-44b8-98e6-de7027845904</webElementGuid>
+      <webElementGuid>b680182a-0041-40f6-913e-d3d53e5981ab</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Login</value>
-      <webElementGuid>3d8cc1cc-b265-49f4-9dd8-9c5e41acd045</webElementGuid>
+      <value>Mendaftar</value>
+      <webElementGuid>5c183d9e-c502-4406-8715-ac49235aebdf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>/html[1]/body[@class=&quot;text-center&quot;]/form[@class=&quot;form-signin&quot;]/button[@class=&quot;mt-3 btn btn-lg btn-primary btn-block&quot;]</value>
-      <webElementGuid>a637a44e-e644-4263-894a-f497c1ae8514</webElementGuid>
+      <value>/html[1]/body[@class=&quot;bg-light&quot;]/div[@class=&quot;container&quot;]/div[@class=&quot;row justify-content-center&quot;]/div[1]/form[1]/button[@class=&quot;btn btn-primary btn-lg btn-block&quot;]</value>
+      <webElementGuid>4f690c0a-31b9-4763-a4d4-4a82a114a017</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,15 +62,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>fb124752-50c5-41d0-be08-409668b40ecf</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mendaftar sekarang'])[1]/following::button[1]</value>
-      <webElementGuid>eda6a269-a7f8-438a-8dd4-50873ddf6a90</webElementGuid>
+      <webElementGuid>785048b0-975d-4c8d-ad42-95a222448a7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,15 +70,31 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Password'])[1]/following::button[1]</value>
-      <webElementGuid>90abb9b7-fe38-460a-a492-6b9f7565f670</webElementGuid>
+      <webElementGuid>d299ab07-f94a-4d00-8681-9475c731d28f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Login']/parent::*</value>
-      <webElementGuid>87af024c-c310-4c95-963e-831aa454681e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Username'])[1]/following::button[1]</value>
+      <webElementGuid>02ffff88-20f7-47b1-9c9e-bf40386cd17d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Login'])[1]/preceding::button[1]</value>
+      <webElementGuid>16a5bbf0-4f01-499b-81bf-06e417f806d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Mendaftar']/parent::*</value>
+      <webElementGuid>0bf01040-a48a-4b76-aca1-031f4db8e0f7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,14 +102,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>ade950a2-ee9c-41d9-bab5-4bdaef967a15</webElementGuid>
+      <webElementGuid>5d33e6cd-164d-4d60-9897-8089b29295f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = 'Login' or . = 'Login')]</value>
-      <webElementGuid>98185b38-8ceb-4319-8db4-327e1b2378e6</webElementGuid>
+      <value>//button[@type = 'submit' and (text() = 'Mendaftar' or . = 'Mendaftar')]</value>
+      <webElementGuid>6a3048f9-01de-4e99-8d6d-b2ff7ce4beb3</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

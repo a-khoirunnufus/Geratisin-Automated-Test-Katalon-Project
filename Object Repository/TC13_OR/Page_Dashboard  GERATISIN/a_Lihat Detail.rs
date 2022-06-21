@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Verifikasi Perusahaan</name>
+   <name>a_Lihat Detail</name>
    <tag></tag>
-   <elementGuidId>98e71ac4-6a80-49e8-b4cf-93a738969233</elementGuidId>
+   <elementGuidId>7561bac8-3c61-4da5-bffd-26d88c5a7ca7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//main[@id='main']/div[2]/div/div[2]/a[2]</value>
+         <value>(//a[contains(text(),'Lihat Detail')])[3]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,110 +22,102 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>f0382b9e-b7d4-4bff-9be0-253d9728dc2c</webElementGuid>
+      <webElementGuid>f20f842a-596c-4b6b-8264-ed99f3a0cd23</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>href</name>
       <type>Main</type>
-      <value>http://108.136.150.164/company/verify_company/27</value>
-      <webElementGuid>64761345-98c1-444f-a403-b9bfcaea5246</webElementGuid>
+      <value>http://108.136.150.164/admin/company</value>
+      <webElementGuid>a7ab0a0c-325e-47d3-9a17-09c40f605e1b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-primary </value>
-      <webElementGuid>75a81636-7dc8-46d0-adb4-ea831dd2bbba</webElementGuid>
+      <value>small-box-footer</value>
+      <webElementGuid>2b6da5b6-de67-4dc0-a73a-74aec0dccd07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Verifikasi Perusahaan</value>
-      <webElementGuid>063b003f-9192-4189-bbb1-b6c43f5efa64</webElementGuid>
+      <value>Lihat Detail </value>
+      <webElementGuid>ff704eb0-65d9-40c8-881b-f7e58255bcd0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main&quot;)/div[@class=&quot;profile-details container&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-8 py-5&quot;]/a[@class=&quot;btn btn-primary&quot;]</value>
-      <webElementGuid>38fe2ed9-f64c-4f68-afc0-a1612b68ce81</webElementGuid>
+      <value>/html[1]/body[@class=&quot;sidebar-mini layout-fixed&quot;]/div[@class=&quot;wrapper&quot;]/div[@class=&quot;content-wrapper&quot;]/section[@class=&quot;content&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-lg-4 col-6&quot;]/div[@class=&quot;small-box bg-success&quot;]/a[@class=&quot;small-box-footer&quot;]</value>
+      <webElementGuid>5d538c4f-d154-4b28-b06d-847a92be0397</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//main[@id='main']/div[2]/div/div[2]/a[2]</value>
-      <webElementGuid>5d7b216d-7b96-462b-8de7-7d71b161ac49</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:link</name>
       <type>Main</type>
-      <value>//a[contains(text(),'Verifikasi Perusahaan')]</value>
-      <webElementGuid>8641924f-dc51-4789-95b8-1192413be671</webElementGuid>
+      <value>(//a[contains(text(),'Lihat Detail')])[3]</value>
+      <webElementGuid>433424a6-fa25-452a-ba62-0c52ebed25ba</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ubah Data Profil'])[1]/following::a[1]</value>
-      <webElementGuid>b7b74304-13cf-43b2-bbfe-6d631e853c63</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Detail'])[2]/following::a[1]</value>
+      <webElementGuid>b5b0ca1a-faa3-4165-933a-7311964546b0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Kode Pos'])[1]/following::a[2]</value>
-      <webElementGuid>ee2596fb-bcbe-46fd-8049-1386ad5a64ab</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Detail'])[1]/following::a[2]</value>
+      <webElementGuid>1eebe5ce-edcd-4f6b-8754-68470b09c4c9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='G'])[2]/preceding::a[1]</value>
-      <webElementGuid>751129b8-9d5c-460b-8ac9-038d8df5b5f2</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Detail'])[4]/preceding::a[1]</value>
+      <webElementGuid>cb825be6-f1a5-4494-99f3-fbac8043b6f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Verifikasi Perusahaan']/parent::*</value>
-      <webElementGuid>e68f2b9f-1c1d-414f-8b62-965b4aa734a9</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat Detail'])[5]/preceding::a[2]</value>
+      <webElementGuid>97b7f685-7f91-44c5-b62a-4a3c14f84c29</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:href</name>
       <type>Main</type>
-      <value>//a[@href='http://108.136.150.164/company/verify_company/27']</value>
-      <webElementGuid>ccf3057c-fff0-4050-8d75-667fa0c12346</webElementGuid>
+      <value>(//a[@href='http://108.136.150.164/admin/company'])[2]</value>
+      <webElementGuid>94ab05e9-c891-4f83-8a40-1f3efc0e91ef</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//a[2]</value>
-      <webElementGuid>9fdfd1da-425f-4981-b098-c6ec11af6e71</webElementGuid>
+      <value>//div[2]/div/a</value>
+      <webElementGuid>89354875-446d-4835-98a6-6f3d181cb8ee</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//a[@href = 'http://108.136.150.164/company/verify_company/27' and (text() = 'Verifikasi Perusahaan' or . = 'Verifikasi Perusahaan')]</value>
-      <webElementGuid>11e207e3-7a53-4057-90a2-8800e5f7edce</webElementGuid>
+      <value>//a[@href = 'http://108.136.150.164/admin/company' and (text() = 'Lihat Detail ' or . = 'Lihat Detail ')]</value>
+      <webElementGuid>9d3ca6a3-8d80-4077-bb8a-d3933e4428f1</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

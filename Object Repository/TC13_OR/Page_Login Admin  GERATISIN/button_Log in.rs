@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Ajukan Verifikasi Perusahaan</name>
+   <name>button_Log in</name>
    <tag></tag>
-   <elementGuidId>4d5b4cbe-d6ec-4330-ac10-e9f62aa9cc9c</elementGuidId>
+   <elementGuidId>cffa1dbb-71ae-4b2f-8cf4-79769cb3af11</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -11,7 +11,7 @@
       </entry>
       <entry>
          <key>CSS</key>
-         <value>button.btn.btn-primary.btn-lg.btn-block.mb-4</value>
+         <value>button.btn.btn-primary.btn-block</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b3286d97-8c8d-4847-914b-1f9f5a21a73e</webElementGuid>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>btn btn-primary btn-lg btn-block mb-4</value>
-      <webElementGuid>ac0dd4fc-6748-4425-9c09-dac978ee35db</webElementGuid>
+      <webElementGuid>d4072e94-d204-4a5e-84f6-cfd1e540282c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,23 +30,31 @@
       <name>type</name>
       <type>Main</type>
       <value>submit</value>
-      <webElementGuid>e519bc5f-d6ed-4e75-99d0-2df4291249f8</webElementGuid>
+      <webElementGuid>9c8d1f80-251a-458d-921b-e6ea56e97821</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-block</value>
+      <webElementGuid>328a9e73-6270-4c0a-9d0f-5dcf18fbe1fa</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Ajukan Verifikasi Perusahaan</value>
-      <webElementGuid>5d9b12fd-2acc-48f6-836f-8a2ed4fa4986</webElementGuid>
+      <value>Log in</value>
+      <webElementGuid>3218023e-45aa-4e57-bee6-87c918a55160</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;main&quot;)/div[@class=&quot;edit-scholarsip container&quot;]/div[@class=&quot;card edit-scholarsip-card&quot;]/div[@class=&quot;card-body p-5&quot;]/form[@class=&quot;mt-4&quot;]/button[@class=&quot;btn btn-primary btn-lg btn-block mb-4&quot;]</value>
-      <webElementGuid>5fe00786-7ac9-4697-900e-d872ab21fadb</webElementGuid>
+      <value>/html[1]/body[@class=&quot;login-page&quot;]/div[@class=&quot;login-box&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body login-card-body&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-4&quot;]/button[@class=&quot;btn btn-primary btn-block&quot;]</value>
+      <webElementGuid>d166b109-969b-4b0b-bede-2a5a14be0578</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,47 +62,47 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@type='submit']</value>
-      <webElementGuid>e6e1e40d-ab26-4a4f-abd4-0a2b82bdd186</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//main[@id='main']/div[2]/div/div/form/button</value>
-      <webElementGuid>9e7b8228-b1d8-4c46-85e4-1a0bec33b7df</webElementGuid>
+      <webElementGuid>fad57554-7c84-4044-a1f0-58d754b9e52d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload Dokumen Verifikasi'])[1]/following::button[1]</value>
-      <webElementGuid>dde207d6-5e10-4747-a9aa-8f6c7e9da1da</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Remember Me'])[1]/following::button[1]</value>
+      <webElementGuid>ca20368c-ceac-48f7-b26a-38811705e696</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Disini'])[1]/following::button[1]</value>
-      <webElementGuid>d8f05f92-8671-4bd2-87b9-10762681fd7c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='GERATISIN ADMIN'])[1]/following::button[1]</value>
+      <webElementGuid>167af4c1-a43a-4c2d-8bd9-fe73f1e82788</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Halaman Profil'])[1]/preceding::button[1]</value>
-      <webElementGuid>95d448da-824c-4c88-be99-d29980b0b45b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='I forgot my password'])[1]/preceding::button[1]</value>
+      <webElementGuid>789d4201-a18d-4d0c-aa20-ef13a5c9da7b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Ajukan Verifikasi Perusahaan']/parent::*</value>
-      <webElementGuid>fe52b642-9fd0-49b9-9296-6a63c0f90b0d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Register a new membership'])[1]/preceding::button[1]</value>
+      <webElementGuid>27a80315-4ed1-4f7a-8433-72b3fcb859a9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Log in']/parent::*</value>
+      <webElementGuid>39fe7fb5-b0db-4427-bead-c3ffc7157b2a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,14 +110,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button</value>
-      <webElementGuid>49820df9-a068-40b3-b48d-679c20fe887f</webElementGuid>
+      <webElementGuid>5048d020-34a4-434c-b877-302442da3446</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@type = 'submit' and (text() = 'Ajukan Verifikasi Perusahaan' or . = 'Ajukan Verifikasi Perusahaan')]</value>
-      <webElementGuid>bc3f45d7-83c3-401e-9435-96ba0e6c7c4e</webElementGuid>
+      <value>//button[@type = 'submit' and (text() = 'Log in' or . = 'Log in')]</value>
+      <webElementGuid>c219d19f-05e5-4b1c-9a0e-1c3434bc335d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

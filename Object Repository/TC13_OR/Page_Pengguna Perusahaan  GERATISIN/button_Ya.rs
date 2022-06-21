@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_Tolak</name>
+   <name>button_Ya</name>
    <tag></tag>
-   <elementGuidId>991e5708-47f3-4f1d-8fbf-f6e372a29407</elementGuidId>
+   <elementGuidId>1d35dcaf-a52f-4fbb-ace8-6d6c492a2dca</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='deniedBtn']</value>
+         <value>//button[@id='confirm-delete']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#deniedBtn</value>
+         <value>#confirm-delete</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,15 +22,15 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>14961a05-f591-4ff9-8b78-a5093a3ff4b8</webElementGuid>
+      <webElementGuid>7441038d-684e-486f-8de0-0ecbc6245306</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
-      <value>deniedBtn</value>
-      <webElementGuid>562d2746-857e-4b1f-8951-1964c3339abe</webElementGuid>
+      <value>confirm-delete</value>
+      <webElementGuid>b4512c79-258f-4110-ab82-b8251ed10a0a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,15 +38,15 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>275ef847-5cb8-455c-9380-54e0a2dd5e79</webElementGuid>
+      <webElementGuid>2d558fb3-d236-4465-9a1c-de6390be2e08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>w-100 btn btn-danger</value>
-      <webElementGuid>5315108a-1b25-4673-b995-7da614b31c8d</webElementGuid>
+      <value>btn btn-danger</value>
+      <webElementGuid>ff389678-f2dd-46e9-9c32-fdac56a93e87</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,55 +54,55 @@
       <name>data-dismiss</name>
       <type>Main</type>
       <value>modal</value>
-      <webElementGuid>81c32173-6a2c-414c-b38a-107332622c8c</webElementGuid>
+      <webElementGuid>6412d27e-6e65-45bc-89bb-7039d4a3254f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>Tolak</value>
-      <webElementGuid>bbb52c15-3f17-45d3-8054-ac22b6114c60</webElementGuid>
+      <value>Ya</value>
+      <webElementGuid>81b0ef52-1e52-4cab-996d-33750336f0b3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;deniedBtn&quot;)</value>
-      <webElementGuid>9f1c2f17-e96f-44bb-9b2b-f5a4a3aceb41</webElementGuid>
+      <value>id(&quot;confirm-delete&quot;)</value>
+      <webElementGuid>7da0c8db-d75c-4ad0-ba54-da9672ac9e4e</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='deniedBtn']</value>
-      <webElementGuid>6491febf-1a58-41f0-b9a7-54ff3a485a09</webElementGuid>
+      <value>//button[@id='confirm-delete']</value>
+      <webElementGuid>4ca2e371-f0af-4f5e-bd73-77c63729aa95</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='verifyCompanyModal']/div/div/div[3]/div/div[2]/button</value>
-      <webElementGuid>d217473f-37ce-4547-9e74-5b188354eb59</webElementGuid>
+      <value>//div[@id='deleteConfirmModal']/div/div/div[3]/button[2]</value>
+      <webElementGuid>47136c68-87a4-48fb-8929-a7bb72308192</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Terima'])[1]/following::button[1]</value>
-      <webElementGuid>e250d629-4bde-4704-9cc9-d9893c4343d8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Batalkan'])[1]/following::button[1]</value>
+      <webElementGuid>a8893a76-5456-4c5c-b420-b60623c5fdc6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='asdf'])[2]/following::button[2]</value>
-      <webElementGuid>2fe12348-0727-4999-889a-418cdcf3ae5c</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Perusahaan TCtigabelas'])[2]/following::button[2]</value>
+      <webElementGuid>c791e08b-cbf0-44b2-a5c4-d4ef068821fb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,38 +110,38 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright © 2021 - GERATISIN'])[1]/preceding::button[1]</value>
-      <webElementGuid>624d841a-d329-4047-8f17-ce95cd5cb822</webElementGuid>
+      <webElementGuid>0a8d60ae-47e6-44b4-b249-2d2d7e4e8eb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Capture object:'])[1]/preceding::button[1]</value>
-      <webElementGuid>e5c9ad3b-225d-44a2-a0fe-c8fe6c104500</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)=concat('id(', '&quot;', 'confirm-delete', '&quot;', ')')])[1]/preceding::button[1]</value>
+      <webElementGuid>427a7fba-108d-4a32-9b41-8aff0975863c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='Tolak']/parent::*</value>
-      <webElementGuid>63c89093-7c5d-447f-9791-74e4f82115ca</webElementGuid>
+      <value>//*/text()[normalize-space(.)='Ya']/parent::*</value>
+      <webElementGuid>6081a8eb-a261-4d78-803a-3c4a6acf3885</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[2]/button</value>
-      <webElementGuid>8715b12b-75cc-49bf-b8df-9a55fd58af34</webElementGuid>
+      <value>//div[3]/button[2]</value>
+      <webElementGuid>24d619e2-1f91-4527-b1f4-3522788ce8e1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'deniedBtn' and @type = 'button' and (text() = 'Tolak' or . = 'Tolak')]</value>
-      <webElementGuid>f563d59d-6aa7-4156-9d84-f10eb8b80d40</webElementGuid>
+      <value>//button[@id = 'confirm-delete' and @type = 'button' and (text() = 'Ya' or . = 'Ya')]</value>
+      <webElementGuid>7685302d-3323-474b-8ee3-303e0e475554</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

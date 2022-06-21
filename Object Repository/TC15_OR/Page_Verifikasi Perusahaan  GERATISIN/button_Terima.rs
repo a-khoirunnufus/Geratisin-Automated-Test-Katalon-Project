@@ -6,19 +6,19 @@
    <elementGuidId>bc33a212-cf18-4566-80da-a8445a0035d6</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>#acceptBtn</value>
+         <key>BASIC</key>
+         <value>//*[@id = 'acceptBtn' and @type = 'button' and (text() = 'Terima' or . = 'Terima')]</value>
       </entry>
       <entry>
          <key>XPATH</key>
          <value>//button[@id='acceptBtn']</value>
       </entry>
       <entry>
-         <key>BASIC</key>
-         <value>//*[@id = 'acceptBtn' and @type = 'button' and (text() = 'Terima' or . = 'Terima')]</value>
+         <key>CSS</key>
+         <value>#acceptBtn</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -26,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c2c3716e-9cd8-41fd-aa7c-71368e5d656e</webElementGuid>
+      <webElementGuid>ec0ed3bd-6fa5-4cc1-8d29-0a54a7b46f69</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +34,7 @@
       <name>id</name>
       <type>Main</type>
       <value>acceptBtn</value>
-      <webElementGuid>5e493358-dc07-4c3b-99d7-fedcbea06e6c</webElementGuid>
+      <webElementGuid>69877e2f-e5bb-4706-ad45-525cd6791700</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +42,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e0d502ef-8bd8-44ff-a1bc-dd7726988e4b</webElementGuid>
+      <webElementGuid>15f2a06b-403f-40d5-a66d-a9c3942df370</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -50,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>w-100 btn btn-success</value>
-      <webElementGuid>de199ca7-a4f2-4ccc-bdd6-079b4aed44dc</webElementGuid>
+      <webElementGuid>29892024-78ea-4894-b89b-ec37235ec8d1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +58,7 @@
       <name>data-dismiss</name>
       <type>Main</type>
       <value>modal</value>
-      <webElementGuid>5b62fe56-a9b2-4139-ba72-016c5d6fa9ba</webElementGuid>
+      <webElementGuid>92e73a03-fc26-4271-910b-89676cd02a26</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -66,7 +66,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Terima</value>
-      <webElementGuid>88de63ca-3a30-46f0-8382-373d0de44000</webElementGuid>
+      <webElementGuid>df2e7e81-37be-4eeb-9d8c-a39ea34a577d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -74,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;acceptBtn&quot;)</value>
-      <webElementGuid>6f7772ea-1e91-4a6c-840b-325d789142fb</webElementGuid>
+      <webElementGuid>34d22c2d-ece0-4175-9014-de0ba2b970b7</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -82,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='acceptBtn']</value>
-      <webElementGuid>a83403b3-4c8d-4251-afbc-212534ee5bde</webElementGuid>
+      <webElementGuid>8a3f9feb-1908-48ca-a66f-d4611f89767e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,7 +90,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='verifyCompanyModal']/div/div/div[3]/div/div/button</value>
-      <webElementGuid>9c58318b-605f-4c63-83ca-e94a419d709f</webElementGuid>
+      <webElementGuid>cd93ebe3-efe9-492a-a0a3-90c47c35c582</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -98,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='PT Jaya Abadi Selamanya'])[2]/following::button[1]</value>
-      <webElementGuid>a541438c-deb5-4934-9fd9-7e9f993f7202</webElementGuid>
+      <webElementGuid>5898369a-6c94-4210-a4df-2f24dfb7151f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -106,7 +106,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Verifikasi Perusahaan'])[3]/following::button[2]</value>
-      <webElementGuid>6edf0ac4-b602-4f26-a866-b13f6e70b728</webElementGuid>
+      <webElementGuid>e06c9c4c-c624-4be4-b383-74b32a6c9b1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -114,7 +114,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tolak'])[1]/preceding::button[1]</value>
-      <webElementGuid>26f85acb-1ed0-4eef-8cc9-87493b949561</webElementGuid>
+      <webElementGuid>ef935356-2711-4fa7-a990-1d0dc6adaf9c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -122,7 +122,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Copyright © 2021 - GERATISIN'])[1]/preceding::button[2]</value>
-      <webElementGuid>97ae0160-ef1e-450b-949e-44d7316162db</webElementGuid>
+      <webElementGuid>99506c33-cdc2-4469-ac21-c17575dcaa61</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -130,7 +130,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Terima']/parent::*</value>
-      <webElementGuid>08c5b4f5-baf8-4e34-a055-f2afdf9d8765</webElementGuid>
+      <webElementGuid>b95e8799-2146-4cdf-a775-cd523b6557da</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -138,7 +138,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/div/button</value>
-      <webElementGuid>c029b68a-746d-4481-9a9b-d01edf01cdb2</webElementGuid>
+      <webElementGuid>42787ff5-558f-49ae-943d-d9f5dc52c8c7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -146,6 +146,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'acceptBtn' and @type = 'button' and (text() = 'Terima' or . = 'Terima')]</value>
-      <webElementGuid>fcf9e9da-e5cf-411e-9b60-e332529d6f9c</webElementGuid>
+      <webElementGuid>59ee9576-ea15-42bb-a90c-491e16e12a5d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elm_Download</name>
+   <tag></tag>
+   <elementGuidId>cb3eabef-80dd-4cb3-b332-1ac2d4846554</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;company-table&quot;)/tbody[1]/tr/td[text() = 'Perusahaan TCempatbelas']/ancestor::tr/td[3]/a[@class=&quot;btn btn-info&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='company-table']/tbody/tr/td[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-info</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;company-table&quot;)/tbody[1]/tr/td[text() = 'Perusahaan TCempatbelas']/ancestor::tr/td[3]/a[@class=&quot;btn btn-info&quot;]</value>
+      <webElementGuid>0bde729d-7661-4a9d-ae36-bdaf6b2a4c76</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='company-table']/tbody/tr/td[3]/a</value>
+      <webElementGuid>26225b31-84a9-41b4-a9d2-528ab3d7ec77</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Download')]</value>
+      <webElementGuid>2b389101-376b-4636-b493-743026871a20</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='jayaabadi@email.com'])[1]/following::a[1]</value>
+      <webElementGuid>db692565-6f88-428b-94b0-cc3a93353d99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PT Jaya Abadi Selamanya'])[1]/following::a[1]</value>
+      <webElementGuid>5d548497-3da3-4a41-957d-cd5fd804cdb1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verifikasi'])[1]/preceding::a[1]</value>
+      <webElementGuid>f6a9e8eb-648f-4fa5-bef7-a70a6c3a20c9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Processing...'])[1]/preceding::a[1]</value>
+      <webElementGuid>35df4961-afd7-46bf-a00b-9b4c4d908f68</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Download']/parent::*</value>
+      <webElementGuid>314cd44c-ece9-4c0e-809c-e6ba7b064dc7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://108.136.150.164/admin/download_company_verification_doc/21']</value>
+      <webElementGuid>1dc615f8-180f-4e5f-9ca4-907d43d22a0b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/a</value>
+      <webElementGuid>1ab8c270-c6f5-44ae-a750-7324a490a593</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'http://108.136.150.164/admin/download_company_verification_doc/21' and (text() = ' Download' or . = ' Download')]</value>
+      <webElementGuid>833e7d4b-540c-43e7-9854-830b529b03bc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

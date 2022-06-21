@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elm_Delete</name>
+   <tag></tag>
+   <elementGuidId>6a7b9101-7f1c-42a9-b308-d77166871794</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//table[@id='company-table']/tbody/tr/td[text() = 'Perusahaan TCenambelas']/ancestor::tr/td[6]/button[@class=&quot;btn btn-danger&quot;]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='company-table']/tbody/tr/td[6]/button[2]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fas.fa-trash</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>//table[@id='company-table']/tbody/tr/td[text() = 'Perusahaan TCenambelas']/ancestor::tr/td[6]/button[@class=&quot;btn btn-danger&quot;]</value>
+      <webElementGuid>6f7a61e0-65cb-42c6-b449-77fbe7421cc0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='company-table']/tbody/tr/td[6]/button[2]/i</value>
+      <webElementGuid>7ceb3426-0533-43aa-b804-d71c097fdec4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[2]/i</value>
+      <webElementGuid>a11a0e9c-82e9-4a3b-99a0-9b578aa5021e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

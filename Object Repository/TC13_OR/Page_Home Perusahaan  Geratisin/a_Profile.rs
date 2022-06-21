@@ -6,12 +6,12 @@
    <elementGuidId>1cd8adc5-5236-4064-b2e4-c266437985e3</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>div.col-xs-4.text-center > a.btn.btn-default.btn-flat</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//nav[@id='navbar']/ul/ul/li/ul/li[3]/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-xs-4.text-center > a.btn.btn-default.btn-flat</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>570dbd3d-8ad3-4aa8-b0e9-c57dcb5c5119</webElementGuid>
+      <webElementGuid>3eb4d672-94ef-4aa1-b03a-885d9bc0a4ec</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -30,7 +30,7 @@
       <name>href</name>
       <type>Main</type>
       <value>http://108.136.150.164/company/profile</value>
-      <webElementGuid>5a0141cb-93ab-463b-998f-c80655241e2f</webElementGuid>
+      <webElementGuid>6be2f3b2-9593-4edf-a394-27bbe2b51137</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-default btn-flat</value>
-      <webElementGuid>8d06ad53-6f53-43a3-9d56-981c8ace53df</webElementGuid>
+      <webElementGuid>3b2d985a-3d58-4ba3-993e-91de029e595a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Profile</value>
-      <webElementGuid>91ebe82f-113e-43c7-96cf-b8fd837da4b1</webElementGuid>
+      <webElementGuid>e8476186-4160-4299-8ec6-c00a78bebaae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +54,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;navbar&quot;)/ul[1]/ul[@class=&quot;order-1 order-md-3 navbar-nav navbar-no-expand ml-auto&quot;]/li[@class=&quot;dropdown user user-menu show&quot;]/ul[@class=&quot;dropdown-menu show&quot;]/li[@class=&quot;user-footer&quot;]/div[@class=&quot;col-xs-4 text-center&quot;]/a[@class=&quot;btn btn-default btn-flat&quot;]</value>
-      <webElementGuid>d28d6239-cdbe-4fd7-9fe7-5f6cec49740a</webElementGuid>
+      <webElementGuid>568e73e4-2f4a-484d-86f4-1a49778b4f05</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//nav[@id='navbar']/ul/ul/li/ul/li[3]/div/a</value>
-      <webElementGuid>71acd31e-8460-4300-addb-70ab56024138</webElementGuid>
+      <webElementGuid>40f7e74f-92a7-4c64-9fb0-49b090d9ca04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +70,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Profile')]</value>
-      <webElementGuid>68180ca6-457f-48df-97f9-7ad1dc8b49b7</webElementGuid>
+      <webElementGuid>1d62025f-18a4-4bdc-b564-f7e18d5553f5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +78,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Tambah Beasiswa'])[1]/following::a[1]</value>
-      <webElementGuid>e6c62a96-e4d2-4635-aa91-3ce5796f67fb</webElementGuid>
+      <webElementGuid>d59358d6-6e1a-425d-b4ec-ae91602d74b2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +86,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Beasiswa Saya'])[1]/following::a[2]</value>
-      <webElementGuid>8aa5cdfc-a1ea-48e6-a9bf-ac2c14544229</webElementGuid>
+      <webElementGuid>760d398c-fbad-423e-a86b-b6dcecac6fe8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +94,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/preceding::a[1]</value>
-      <webElementGuid>6d5e470f-96da-4c09-a4f3-438e28ae5a4e</webElementGuid>
+      <webElementGuid>7dd8f71c-25ca-43e8-86f6-f4ed97e7e327</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +102,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Bersekolah Tidak Harus Mahal'])[1]/preceding::a[2]</value>
-      <webElementGuid>57679c08-526d-4208-bb2f-bd38084930c4</webElementGuid>
+      <webElementGuid>bac5e585-d47c-4518-ae12-bf362e6ad968</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,7 +110,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Profile']/parent::*</value>
-      <webElementGuid>16bafd0e-87a7-45e5-8e6c-6a80a1a545b3</webElementGuid>
+      <webElementGuid>a88b6e1d-219b-4540-a903-63cb7b6da598</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -118,7 +118,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[@href='http://108.136.150.164/company/profile']</value>
-      <webElementGuid>60dafcce-fbb5-4a4a-936e-cb64f82da788</webElementGuid>
+      <webElementGuid>357bdf12-a8de-430e-98e6-51a3efdc1ee4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -126,7 +126,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/a</value>
-      <webElementGuid>fc015cba-1069-4540-a10a-5e9618592f17</webElementGuid>
+      <webElementGuid>0f99ab86-9e46-46db-be73-ebd2f2e52d65</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -134,6 +134,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = 'http://108.136.150.164/company/profile' and (text() = 'Profile' or . = 'Profile')]</value>
-      <webElementGuid>343d5154-af28-4fb9-a1b2-1604c42c4c87</webElementGuid>
+      <webElementGuid>86c38cbb-6e6b-43c0-b2a3-bb2b7ab5d5bb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

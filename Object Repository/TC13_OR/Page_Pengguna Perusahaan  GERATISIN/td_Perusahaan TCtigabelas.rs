@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_Perusahaan TCtigabelas</name>
+   <tag></tag>
+   <elementGuidId>b6e3d769-7072-4104-8496-e465529c767f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='company-table']/tbody/tr/td[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>e858f61a-37c0-4542-9f6a-ecc90cdc6acd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Perusahaan TCtigabelas</value>
+      <webElementGuid>a09d4fe5-b900-448c-921a-7fb54863c49b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;company-table&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[3]</value>
+      <webElementGuid>c52689f7-2de4-47d2-9d66-67596b0d7b90</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='company-table']/tbody/tr/td[3]</value>
+      <webElementGuid>37b5ef8c-f093-40c2-9773-70498a17633f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ptc13@email.com'])[1]/following::td[1]</value>
+      <webElementGuid>a655fab5-2c5b-443f-b7d0-a1a1cb1f19f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ptc13'])[1]/following::td[2]</value>
+      <webElementGuid>eaf60834-874a-4e16-b20a-8518798010c6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BelumTerverifikasi'])[1]/preceding::td[2]</value>
+      <webElementGuid>f3780421-5160-49d1-9502-0c8bf9304516</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='jayaabadi'])[1]/preceding::td[4]</value>
+      <webElementGuid>3a6a162b-68bd-4502-850a-c00363132fd2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Perusahaan TCtigabelas']/parent::*</value>
+      <webElementGuid>82f1dc19-865b-4209-98ad-be9b11dbc930</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]</value>
+      <webElementGuid>9fc2dcee-265f-4904-99e8-ca52a33aef75</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'Perusahaan TCtigabelas' or . = 'Perusahaan TCtigabelas')]</value>
+      <webElementGuid>20dc4a26-6633-462a-a1ea-07abbe480e02</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

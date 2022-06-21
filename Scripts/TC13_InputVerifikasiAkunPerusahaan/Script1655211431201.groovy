@@ -19,15 +19,33 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.navigateToUrl('http://108.136.150.164/company/register')
+
+WebUI.setText(findTestObject('Object Repository/TC13_OR/Page_Mendaftar Perusahaan  Geratisin/input_Nama Perusahaan_name'), 
+    'Perusahaan TCtigabelas')
+
+WebUI.setText(findTestObject('Object Repository/TC13_OR/Page_Mendaftar Perusahaan  Geratisin/input_Email_email'), 'ptc13@email.com')
+
+WebUI.setText(findTestObject('Object Repository/TC13_OR/Page_Mendaftar Perusahaan  Geratisin/input_Username_username'), 
+    'ptc13')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/TC13_OR/Page_Mendaftar Perusahaan  Geratisin/input_Password_password'), 
+    '8SQVv/p9jVScEs4/2CZsLw==')
+
+WebUI.click(findTestObject('Object Repository/TC13_OR/Page_Mendaftar Perusahaan  Geratisin/button_Mendaftar'))
+
+WebUI.verifyTextPresent('Anda telah sukses mendaftar', false)
+
 WebUI.navigateToUrl('http://108.136.150.164/company/login')
 
-WebUI.setText(findTestObject('Object Repository/TC13_OR/Page_Login Perusahaan  Geratisin/input_Username_username'), 'testcomp')
+WebUI.setText(findTestObject('Object Repository/TC13_OR/Page_Login Perusahaan  Geratisin/input_Username_username'), 'ptc13')
 
-WebUI.setText(findTestObject('Object Repository/TC13_OR/Page_Login Perusahaan  Geratisin/input_Password_password'), 'password')
+WebUI.setEncryptedText(findTestObject('Object Repository/TC13_OR/Page_Login Perusahaan  Geratisin/input_Password_password'), 
+    '8SQVv/p9jVScEs4/2CZsLw==')
 
 WebUI.click(findTestObject('Object Repository/TC13_OR/Page_Login Perusahaan  Geratisin/button_Login'))
 
-WebUI.mouseOver(findTestObject('TC13_OR/Page_Home Perusahaan  Geratisin/a_Test Company'))
+WebUI.mouseOver(findTestObject('Object Repository/TC13_OR/Page_Home Perusahaan  Geratisin/a_Perusahaan TCtigabelas'))
 
 WebUI.click(findTestObject('Object Repository/TC13_OR/Page_Home Perusahaan  Geratisin/a_Profile'))
 
@@ -38,7 +56,27 @@ WebUI.uploadFile(findTestObject('TC13_OR/Page_Verifikasi Perusahaan  Geratisin/i
 
 WebUI.click(findTestObject('Object Repository/TC13_OR/Page_Verifikasi Perusahaan  Geratisin/button_Ajukan Verifikasi Perusahaan'))
 
-WebUI.verifyTextPresent('sukses mengajukan verifikasi', false)
+WebUI.verifyTextPresent('Anda telah sukses mengajukan verifikasi', false)
+
+WebUI.navigateToUrl('http://108.136.150.164/admin/login')
+
+WebUI.setText(findTestObject('Object Repository/TC13_OR/Page_Login Admin  GERATISIN/input_GERATISIN ADMIN_username'), 'admin')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/TC13_OR/Page_Login Admin  GERATISIN/input_GERATISIN ADMIN_password'), 
+    '8SQVv/p9jVScEs4/2CZsLw==')
+
+WebUI.click(findTestObject('Object Repository/TC13_OR/Page_Login Admin  GERATISIN/button_Log in'))
+
+WebUI.click(findTestObject('Object Repository/TC13_OR/Page_Dashboard  GERATISIN/a_Dashboard'))
+
+WebUI.click(findTestObject('Object Repository/TC13_OR/Page_Dashboard  GERATISIN/a_Lihat Detail'))
+
+WebUI.click(findTestObject('Object Repository/TC13_OR/Page_Pengguna Perusahaan  GERATISIN/elm_Delete'))
+
+WebUI.click(findTestObject('Object Repository/TC13_OR/Page_Pengguna Perusahaan  GERATISIN/button_Ya'))
+
+'delete sample data end'
+WebUI.verifyTextPresent('Hapus data telah berhasil', false)
 
 WebUI.closeBrowser()
 
