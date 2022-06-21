@@ -74,7 +74,7 @@ WebUI.setText(findTestObject('Object Repository/TC8_OR/Page_Edit Beasiswa  Gerat
 
 WebUI.click(findTestObject('Object Repository/TC8_OR/Page_Edit Beasiswa  Geratisin/button_Edit Beasiswa'))
 
-WebUI.navigateToUrl('http://108.136.150.164/pub/logout')
+WebUI.navigateToUrl('http://108.136.150.164/company/logout')
 
 'delete sample data start'
 WebUI.navigateToUrl('http://108.136.150.164/admin/login')

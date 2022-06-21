@@ -63,7 +63,7 @@ WebUI.click(findTestObject('Object Repository/TC5_OR/Page_Edit Beasiswa  Geratis
 'main task end'
 WebUI.verifyTextPresent('sukses mengedit data beasiswa', false)
 
-WebUI.navigateToUrl('http://108.136.150.164/pub/logout')
+WebUI.navigateToUrl('http://108.136.150.164/company/logout')
 
 'delete sample data start'
 WebUI.navigateToUrl('http://108.136.150.164/admin/login')
