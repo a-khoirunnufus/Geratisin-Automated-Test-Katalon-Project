@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elm_Download</name>
+   <tag></tag>
+   <elementGuidId>30a3c854-2555-4485-90bf-3011e5ec548a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;scholarship-table&quot;)/tbody[1]/tr/td[text() = 'Beasiswa TC10']/ancestor::tr/td[3]/a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='scholarship-table']/tbody/tr/td[3]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-info</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scholarship-table&quot;)/tbody[1]/tr/td[text() = 'Beasiswa TC10']/ancestor::tr/td[3]/a</value>
+      <webElementGuid>d3394729-2aec-4690-96aa-08209ede5e69</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='scholarship-table']/tbody/tr/td[3]/a</value>
+      <webElementGuid>647d9804-8c28-44d9-ac03-5460e644e045</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Download')]</value>
+      <webElementGuid>cc6a32a8-561f-4769-a622-d3faf39f7cf8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='PT Jaya Abadi Selamanya'])[1]/following::a[1]</value>
+      <webElementGuid>ca8ce7da-848b-4d8c-ae8e-50cf6c3fda7f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Beasiswa pt jaya abadi'])[1]/following::a[1]</value>
+      <webElementGuid>9949e4f1-ed3d-438c-a73d-a7652de2302f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Verifikasi'])[1]/preceding::a[1]</value>
+      <webElementGuid>6fc6c8a9-a0b6-4971-b17f-77c9d17e64d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Processing...'])[1]/preceding::a[1]</value>
+      <webElementGuid>051b57fe-abf2-45b3-a46d-873a37355687</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Download']/parent::*</value>
+      <webElementGuid>331a94d0-fdb2-4933-8709-1a440c1a8bd9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://108.136.150.164/admin/download_scholarsip_verification_doc/48']</value>
+      <webElementGuid>20c5242f-1d6e-4496-aa06-daa709cf299c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td[3]/a</value>
+      <webElementGuid>9838db01-ebcb-4b85-8473-489191d5157e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'http://108.136.150.164/admin/download_scholarsip_verification_doc/48' and (text() = ' Download' or . = ' Download')]</value>
+      <webElementGuid>e169c61e-feca-4560-9917-38b1292936e0</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

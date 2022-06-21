@@ -28,13 +28,31 @@ WebUI.setEncryptedText(findTestObject('Object Repository/TC9_OR/Page_Login Perus
 
 WebUI.click(findTestObject('Object Repository/TC9_OR/Page_Login Perusahaan  Geratisin/button_Login'))
 
+WebUI.mouseOver(findTestObject('Object Repository/TC3_OR/Page_Home Perusahaan  Geratisin/a_PT Jaya Abadi Selamanya'))
+
+WebUI.click(findTestObject('Object Repository/TC3_OR/Page_Home Perusahaan  Geratisin/a_Tambah Beasiswa'))
+
+WebUI.setText(findTestObject('Object Repository/TC3_OR/Page_Tambah Beasiswa  Geratisin/input_Nama Beasiswa_name'), 'Beasiswa TC9')
+
+WebUI.uploadFile(findTestObject('TC3_OR/Page_Tambah Beasiswa  Geratisin/input_(Opsional)_brochure'), GlobalVariable.sample_document_path)
+
+WebUI.setText(findTestObject('Object Repository/TC3_OR/Page_Tambah Beasiswa  Geratisin/input_Deskripsi Beasiswa_description'), 
+    'Beasiswa yang diselenggarakan oleh pt jaya abadi')
+
+WebUI.setText(findTestObject('Object Repository/TC3_OR/Page_Tambah Beasiswa  Geratisin/input_Tanggal Akhir Pendaftaran_end_date'), 
+    '2023-05-12')
+
+WebUI.setText(findTestObject('Object Repository/TC3_OR/Page_Tambah Beasiswa  Geratisin/input_Link Beasiswa_link'), 'www.jayaabadi.com/beasiswa/1')
+
+WebUI.click(findTestObject('Object Repository/TC3_OR/Page_Tambah Beasiswa  Geratisin/button_Tambah Beasiswa'))
+
+WebUI.verifyTextPresent('sukses menambahkan beasiswa', false)
+
 WebUI.mouseOver(findTestObject('Object Repository/TC9_OR/Page_Home Perusahaan  Geratisin/a_PT Jaya Abadi Selamanya'))
 
 WebUI.click(findTestObject('Object Repository/TC9_OR/Page_Home Perusahaan  Geratisin/a_Beasiswa Saya'))
 
-WebUI.verifyTextPresent('Beasiswa pt jaya abadi', false)
-
-WebUI.click(findTestObject('TC9_OR/Page_Beasiswa Saya  Geratisin/a_Verifikasi'))
+WebUI.click(findTestObject('TC9_OR/Page_Beasiswa Saya  Geratisin/elm_Verifikasi'))
 
 WebUI.uploadFile(findTestObject('TC9_OR/Page_Verifikasi Beasiswa  Geratisin/input_Upload Dokumen Verifikasi_document'), 
     GlobalVariable.sample_document_path)
@@ -42,6 +60,26 @@ WebUI.uploadFile(findTestObject('TC9_OR/Page_Verifikasi Beasiswa  Geratisin/inpu
 WebUI.click(findTestObject('Object Repository/TC9_OR/Page_Verifikasi Beasiswa  Geratisin/button_Ajukan Verifikasi Beasiswa'))
 
 WebUI.verifyTextPresent('sukses mengajukan verifikasi beasiswa', false)
+
+WebUI.navigateToUrl('http://108.136.150.164/company/logout')
+
+'delete sample data start'
+WebUI.navigateToUrl('http://108.136.150.164/admin/login')
+
+WebUI.setText(findTestObject('Case_Delete Resulting Data/input_GERATISIN ADMIN_username'), 'admin')
+
+WebUI.setText(findTestObject('Case_Delete Resulting Data/input_GERATISIN ADMIN_password'), 'password')
+
+WebUI.click(findTestObject('Case_Delete Resulting Data/button_Log in'))
+
+WebUI.click(findTestObject('Case_Delete Resulting Data/a_Lihat Detail'))
+
+WebUI.click(findTestObject('Case_Delete Resulting Data/button_Delete TC9'))
+
+WebUI.click(findTestObject('Case_Delete Resulting Data/button_Ya'))
+
+'delete sample data end'
+WebUI.verifyTextPresent('Hapus data telah berhasil', false)
 
 WebUI.closeBrowser()
 

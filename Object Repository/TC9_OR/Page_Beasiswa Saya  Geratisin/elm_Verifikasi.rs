@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>elm_Verifikasi</name>
+   <tag></tag>
+   <elementGuidId>f179f9c1-fcfa-419b-8411-384056b5d5a5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;scholarship-table&quot;)/tbody[1]/tr/td[text() = 'Beasiswa TC9']/ancestor::tr/td[5]/a[text() = 'Verifikasi']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='scholarship-table']/tbody/tr/td[5]/a[3]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;scholarship-table&quot;)/tbody[1]/tr/td[text() = 'Beasiswa TC9']/ancestor::tr/td[5]/a[text() = 'Verifikasi']</value>
+      <webElementGuid>a6d4c4f8-8445-4aa0-bb86-f7e927f4a1a6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='scholarship-table']/tbody/tr/td[5]/a[3]</value>
+      <webElementGuid>5b8a8ba7-6f8c-4bbf-939d-5699b582e3d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Verifikasi')]</value>
+      <webElementGuid>ab09a138-ba0c-4348-96ec-94a2a9f5e123</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Edit'])[1]/following::a[1]</value>
+      <webElementGuid>f38b34d6-d59a-4088-bdaf-0f07a521a9b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Lihat'])[1]/following::a[2]</value>
+      <webElementGuid>666fad45-62a9-44b5-bb19-38c2f07ddfb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Showing 1 to 1 of 1 entries'])[1]/preceding::a[1]</value>
+      <webElementGuid>a87fa839-a657-4797-a081-4cd454173a99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Verifikasi']/parent::*</value>
+      <webElementGuid>e8396f3d-9e68-4f28-bba8-71df8e33c4f7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://108.136.150.164/company/verify_scholarship/48']</value>
+      <webElementGuid>004a8a56-4edd-4063-8344-07e4ba222a9a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//a[3]</value>
+      <webElementGuid>7cfdd185-4236-47b0-8773-bf364782008a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'http://108.136.150.164/company/verify_scholarship/48' and (text() = 'Verifikasi' or . = 'Verifikasi')]</value>
+      <webElementGuid>b401a210-55b9-4903-85b9-c5442b82aa98</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
