@@ -9,4 +9,39 @@
       <initValue>'/home/akhoirunnufus/Downloads/sample-document.pdf'</initValue>
       <name>sample_document_path</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://108.136.150.164/pub/login'</initValue>
+      <name>public_login_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://108.136.150.164/company/login'</initValue>
+      <name>company_login_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://108.136.150.164/admin/login'</initValue>
+      <name>admin_login_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://108.136.150.164/pub/logout'</initValue>
+      <name>public_logout_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://108.136.150.164/company/logout'</initValue>
+      <name>company_logout_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://108.136.150.164/admin/logout'</initValue>
+      <name>admin_logout_url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://108.136.150.164/pub/register'</initValue>
+      <name>company_register_url</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

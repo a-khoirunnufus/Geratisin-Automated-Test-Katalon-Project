@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://108.136.150.164/pub/login')
+WebUI.navigateToUrl(GlobalVariable.public_login_url)
 
 WebUI.setText(findTestObject('Object Repository/TC1-2_OR/Page_Login  Geratisin/input_Username_username'), 'ahmad')
 

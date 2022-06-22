@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://108.136.150.164/company/login')
+WebUI.navigateToUrl(GlobalVariable.company_login_url)
 
 WebUI.setText(findTestObject('Object Repository/TC3_OR/Page_Login Perusahaan  Geratisin/input_Username_username'), 'jayaabadi')
 
@@ -61,7 +61,9 @@ WebUI.click(findTestObject('Object Repository/TC9_OR/Page_Verifikasi Beasiswa  G
 
 WebUI.verifyTextPresent('sukses mengajukan verifikasi beasiswa', false)
 
-WebUI.navigateToUrl('http://108.136.150.164/admin/login')
+WebUI.navigateToUrl(GlobalVariable.company_logout_url)
+
+WebUI.navigateToUrl(GlobalVariable.admin_login_url)
 
 WebUI.setText(findTestObject('Object Repository/TC10_OR/Page_Login Admin  GERATISIN/input_GERATISIN ADMIN_username'), 'admin')
 

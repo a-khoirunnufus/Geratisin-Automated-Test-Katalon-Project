@@ -19,7 +19,7 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl('http://108.136.150.164/pub/login')
+WebUI.navigateToUrl(GlobalVariable.public_login_url)
 
 WebUI.setText(findTestObject('Object Repository/TC1-2_OR/Page_Login  Geratisin/input_Username_username'), 'ahmad')
 
@@ -48,9 +48,9 @@ WebUI.click(findTestObject('Object Repository/TC1-2_OR/Page_Tambah Beasiswa  Ger
 WebUI.verifyTextPresent('sukses menambahkan beasiswa', false)
 
 'delete inserted data start'
-WebUI.navigateToUrl('http://108.136.150.164/pub/logout')
+WebUI.navigateToUrl(GlobalVariable.public_logout_url)
 
-WebUI.navigateToUrl('http://108.136.150.164/admin/login')
+WebUI.navigateToUrl(GlobalVariable.admin_login_url)
 
 WebUI.setText(findTestObject('Case_Delete Resulting Data/input_GERATISIN ADMIN_username'), 'admin')
 
